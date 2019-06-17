@@ -1,0 +1,7 @@
+<div class= "d-flex align-items-center border-bottom my-5 mx-2">
+  <h1><%= @article.title %></h1>
+  <%= link_to "✏️", edit_article_path%>
+  <%= link_to "🗑", article_path(@article), method: :delete, data: {confirm: "Are you sure?"}%>
+</div>
+<p class="p-3"><%= @article.content %></p>
+

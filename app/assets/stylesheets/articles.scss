@@ -1,0 +1,28 @@
+// Place all the styles related to the articles controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 a{
+  font-family: 'Roboto Slab', serif;
+  font-size: 30px;
+  color: #22527D;
+}
+
+h1 {
+    font-family: 'Roboto Slab', serif;
+  font-size: 40px;
+  color: black;
+
+}
+
+.banner {
+  background-color: rgb(250, 250, 250)
+}
+
+a {
+  color: gray;
+}
